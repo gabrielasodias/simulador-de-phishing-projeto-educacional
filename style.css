@@ -21,6 +21,12 @@ input {
     width: 90%;
     border: 1px solid #ccc;
     border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+}
+
+input:focus {
+    box-shadow: 0 0 5px #0071ce;
+    outline: none;
 }
 
 button {
@@ -30,11 +36,27 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
 }
 
 button:hover {
     background: #005bb5;
+    transform: scale(1.05);
 }
+
+.link-fake {
+    font-size: 13px;
+    display: block;
+    margin-top: 10px;
+    color: #0071ce;
+    text-decoration: none;
+  }
+  
+  .link-fake:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
 
 .aviso {
     font-size: 12px;

@@ -22,4 +22,4 @@ Este projeto **não coleta dados reais**, **não é funcional como golpe** e **d
 
 - HTML5
 - CSS3
-- JavaScript básico (para simulação de captura de dados)
+- JavaScript básico (para simulação de captura de dados
