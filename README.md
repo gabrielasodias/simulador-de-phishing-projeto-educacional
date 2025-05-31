@@ -1,7 +1,5 @@
 # 🎣 Simulador de Phishing — Projeto Educacional
 
-*Projeto em desenvolvimento*
-
 > ⚠️ **Este projeto é apenas para fins educacionais e de conscientização em Segurança da Informação. Não utilize para fins maliciosos.**
 
 ## 🧠 Objetivo
@@ -14,7 +12,7 @@ Este projeto simula uma página de phishing (fraude online) com o intuito de:
 
 ## 🚨 Aviso Legal
 
-Este projeto **não coleta dados reais**, **não é funcional como golpe** e **deve ser executado apenas localmente** para estudo. **NÃO publique este site como se fosse real, nem tente enganar ninguém com ele. Isso é crime.**
+Este projeto **não coleta dados reais**, **não é funcional como golpe** e **deve ser executado apenas localmente** para estudo. **NÃO publique sites que roubam credenciais como se fosse real, nem tente enganar ninguém. Isso é crime.**
 
 > Artigos 154-A e 171 do Código Penal Brasileiro tratam sobre crimes cibernéticos e estelionato.
 
@@ -22,7 +20,7 @@ Este projeto **não coleta dados reais**, **não é funcional como golpe** e **d
 
 - HTML5
 - CSS3
-- JavaScript básico (para simulação de captura de dados
+- JavaScript básico (para simulação de captura de dados)
 
 ## 👀 Como testar localmemte
 
@@ -34,12 +32,20 @@ Este projeto **não coleta dados reais**, **não é funcional como golpe** e **d
 2. Abra o arquivo `index.html` no navegador.
 3. Digite dados falsos (qualquer coisa) e veja como os dados são capturados no console (F12).
 
+   *Link do projeto para testes:[ https://gabrielasodias.github.io/simulador-de-phishing-projeto-educacional/](https://gabrielasodias.github.io/simulador-de-phishing-projeto-educacional/)*
+
 ## 📚 Aprendizados
 
 - Criar uma página de login falsa (simulada).
 - Capturar dados via JavaScript.
 - Compreender técnicas usadas em ataques de engenharia social.
 - Desenvolver senso crítico para identificar ameaças.
+
+## ⚠️ Observações:
+
+* Login apenas como exemplo visual.
+* Não armazena dados.
+* Mostra a captura  **apenas no console.**
 
 ## 🛡️ Como se proteger de ataques reais
 
