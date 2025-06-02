@@ -30,7 +30,7 @@ Este projeto **não coleta dados reais**, **não é funcional como golpe** e **d
    git clone git@github.com:gabrielasodias/simulador-de-phishing-projeto-educacional.git
    ```
 2. Abra o arquivo `index.html` no navegador.
-3. Digite dados falsos (qualquer coisa) e veja como os dados são capturados no console (F12).
+3. Digite dados falsos (qualquer coisa) e veja como os dados são capturados.
 
    *Link do projeto para testes:[ https://gabrielasodias.github.io/simulador-de-phishing-projeto-educacional/](https://gabrielasodias.github.io/simulador-de-phishing-projeto-educacional/)*
 
@@ -45,7 +45,7 @@ Este projeto **não coleta dados reais**, **não é funcional como golpe** e **d
 
 * Login apenas como exemplo visual.
 * Não armazena dados.
-* Mostra a captura  **apenas no console.**
+* Mostra a captura  **apenas no terminal fictício.**
 
 ## 🛡️ Como se proteger de ataques reais
 

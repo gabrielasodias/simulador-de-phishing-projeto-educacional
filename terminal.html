@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simulando Ataque...</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background: black;
+      color: lime;
+      font-family: monospace;
+      padding: 2rem;
+    }
+    #terminal {
+      white-space: pre-wrap;
+      animation: type 5s steps(40) 1;
+    }
+    @keyframes type {
+      from { width: 0 }
+      to { width: 100% }
+    }
+  </style>
+</head>
+<body>
+  <div id="terminal">
+    Iniciando ataque...
+    Acessando banco de dados...
+    Capturando credenciais...
+    <span id="login">Login: ...</span><br>
+    <span id="senha">Senha: ...</span>
+    Enviando dados...
+    [SIMULAÇÃO FINALIZADA]
+
+    Redirecionando para explicação...
+  </div>
+
+  <script>
+    const usuario = localStorage.getItem("usuarioFake") || "não informado";
+    const senha = localStorage.getItem("senhaFake") || "não informado";
+  
+    document.getElementById("login").innerText = "Login: " + usuario;
+    document.getElementById("senha").innerText = "Senha: " + senha.replace(/./g, "*");
+  
+    setTimeout(() => {
+      localStorage.removeItem("usuarioFake");
+      localStorage.removeItem("senhaFake");
+      window.location.href = "phishing-info.html";
+    }, 7000);
+  </script>
+  
+</body>
+</html>
